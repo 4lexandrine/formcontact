@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="https://kit.fontawesome.com/bb54014cd5.js"></script>
+  </head>
+  <body>
+    <form>
+      <div class="title"><h1>Contactez-moi</h1></div>
+      <div class="fields">
+        <input type="text" placeholder="Votre nom" />
+        <input type="email" placeholder="Votre email" />
+
+        <select name="choice" id="choice-select">
+          <option>Vous me contactez pour...</option>
+          <option value="pluie">La pluie</option>
+          <option value="soleil">Le beau temps</option>
+          <option value="ennui">J'ai rien d'autre à faire</option>
+          <option value="plaisir">Pour le plaisir</option>
+        </select>
+
+        <textarea
+          name="message"
+          placeholder="Votre message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button class="btn" type="submit">ENVOYER</button>
+      </div>
+    </form>
+    <div class="social">
+      <ul>
+        <li><i class="fab fa-linkedin"></i></li>
+        <li><i class="fab fa-github-square"></i></li>
+        <li><i class="fab fa-twitter-square"></i></li>
+      </ul>
+    </div>
+  </body>
+</html>
